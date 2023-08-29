@@ -93,39 +93,51 @@ navigation
     border-radius: 6px;
     margin-top: 12px;
     margin-bottom: 8px;
-  }
+}
 
-  /*
-  Toboolist
-  */
+/*
+Toboolist
+*/
 
-  .toboolist__list-todo {
+.toboolist__list-todo {
     color: black;
     font-size: 18px;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
     padding: 25px 40px 40px;
-  }
+}
 
-  .toboolist__list-todo li {
+.toboolist__list-todo li {
     font-size: 12px;
     font-weight: 50;
-  }
+} 
 
-  /*
-  MARKER
-  */
+.list-todo-row-left {
+    width: 20px;
+    display: inline-block;
+}
 
-  .list-button {
+.list-todo-row-right {
+    display: inline-block;
+}
+
+.row-left, .row-right{
+    display: inline-block;
+}
+/*
+MARKER
+*/
+
+.list-button {
     color: white;
     font-size: 6px;
     font-weight: lighter;
     padding: 4px 6px;
     text-align: center;
     border-radius: 8px;
-  }
+}
 
-  .check-complited {
+.check-complited {
     font-size: 8px;
     display: inline-block;
 	width: 14px;
@@ -134,4 +146,4 @@ navigation
     border-radius: 50%;
     text-align: center;
     color: green;
-  }
+}
