@@ -12,10 +12,12 @@ img {
     max-width: 100%;
 }
 
+
 ul, ol {
     list-style: none;
     padding: 0;
 }
+
 
 .conteiner {
     max-width: 1000px;
@@ -54,14 +56,15 @@ MAIN
 
 .toboolist {
     max-width: 800px;
-    padding-left: 40px;
-    border-bottom: 2px solid #f6f8f9;
 }
 
 /*
 navigation
 */
 
+.toboolist__menu {
+    border-bottom: 4px solid #f6f8f9;
+}
 .toboolist__menu-button1 {
     border: 2px solid #47adf1; 
     background-color: #47adf1;
@@ -72,6 +75,7 @@ navigation
     border-radius: 6px;
     margin-top: 12px;
     margin-bottom: 8px;
+    margin-left: 40px;
 }
 
 .toboolist__menu-button2 {
@@ -87,3 +91,21 @@ navigation
     margin-top: 12px;
     margin-bottom: 8px;
   }
+
+  /*
+  Toboolist
+  */
+
+  .toboolist__list-todo {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    padding: 25px 40px 40px;
+  }
+
+  .toboolist__list-todo li {
+    font-size: 12px;
+    font-weight: 50;
+  }
+
