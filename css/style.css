@@ -32,6 +32,9 @@ ul, ol {
     background-color: white;
 }
 
+.bg-blu {
+    background-color: #47adf1;
+}
 /*
 HEADER
 */
@@ -65,7 +68,7 @@ navigation
 .toboolist__menu {
     border-bottom: 4px solid #f6f8f9;
 }
-.toboolist__menu-button1 {
+.toboolist__nav-button-bg-blu {
     border: 2px solid #47adf1; 
     background-color: #47adf1;
     color: white;
@@ -78,7 +81,7 @@ navigation
     margin-left: 40px;
 }
 
-.toboolist__menu-button2 {
+.toboolist__nav-button-bg-white {
     
     
     border: 2px solid #d4d8dc; 
@@ -109,3 +112,26 @@ navigation
     font-weight: 50;
   }
 
+  /*
+  MARKER
+  */
+
+  .list-button {
+    color: white;
+    font-size: 6px;
+    font-weight: lighter;
+    padding: 4px 6px;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .check-complited {
+    font-size: 8px;
+    display: inline-block;
+	width: 14px;
+	height: 14px;
+    border: 1px solid green;
+    border-radius: 50%;
+    text-align: center;
+    color: green;
+  }
