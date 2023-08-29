@@ -80,6 +80,7 @@ MAIN
 
 .toboolist {
     max-width: 800px;
+    border-radius: 10px;
 }
 
 /*
@@ -103,8 +104,6 @@ navigation
 }
 
 .toboolist__nav-button-bg-white {
-    
-    
     border: 2px solid #d4d8dc; 
     background-color: white;
     color: #d4d8dc;
@@ -122,19 +121,21 @@ Toboolist
 
 .toboolist__list-todo {
     color: black;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
-    padding: 25px 40px 40px;
+    padding: 25px 40px 15px;
 }
 
 .toboolist__list-todo li {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 50;
+    padding-bottom: 5px;
+    padding-top: 5px;
 } 
 
 .list-todo-row-left {
-    width: 20px;
+    width: 30px;
     display: inline-block;
 }
 
@@ -151,7 +152,7 @@ MARKER
 
 .list-button {
     color: white;
-    font-size: 6px;
+    font-size: 12px;
     font-weight: lighter;
     padding: 4px 6px;
     text-align: center;
@@ -159,10 +160,10 @@ MARKER
 }
 
 .check-complited {
-    font-size: 8px;
+    font-size: 12px;
     display: inline-block;
-	width: 14px;
-	height: 14px;
+    width: 20px;
+    height: 20px;
     border: 1px solid green;
     border-radius: 50%;
     text-align: center;
@@ -170,10 +171,10 @@ MARKER
 }
 
 .check-non-complited {
-    font-size: 8px;
+    font-size: 12px;
     display: inline-block;
-	width: 14px;
-	height: 14px;
+    width: 20px;
+    height: 20px;
     border: 1px solid red;
     border-radius: 50%;
     text-align: center;
